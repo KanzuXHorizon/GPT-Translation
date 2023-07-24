@@ -1,5 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 *.exe filter=lfs diff=lfs merge=lfs -text
+GPT[[:space:]]Translation[[:space:]]Setup[[:space:]]1.0.0.exe filter=lfs diff=lfs merge=lfs -text
 /LICENSE filter=lfs diff=lfs merge=lfs -text
 *.md filter=lfs diff=lfs merge=lfs -text
